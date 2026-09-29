@@ -1,9 +1,17 @@
 package yukmg.controller;
 
-public class YukmgCtrl {
+import common.controller.AbstractController;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
-	public static void main(String[] args) {
-		System.out.println("헤헤헤");
+public class YukmgCtrl extends AbstractController{
+
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		
+		
+		super.setRedirect(false);
+		super.setViewPage("/WEB-INF/yukmg/index.jsp");
 	}
 
 }
