@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>link_biz4</title>
+<title>Insert title here</title>
 </head>
 <body>
- <h1>link_biz4 페이지 입니다</h1>
-
+ 4 페이지 입니다.
 </body>
 </html>
